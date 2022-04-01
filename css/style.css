@@ -343,3 +343,11 @@ input {
     font-size: small;
     font-style: italic;
 }
+
+.mogstationlogo {
+    width: 20%;
+    position: relative;
+    bottom: 225px;
+    left: 1100px;
+    
+}
