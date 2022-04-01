@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, a, p, span {
+h1, h2, h3, h4, h5, a, span {
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -24,37 +24,109 @@ a:hover {
 h1 {
     padding-top: 25px;
     color: #ECF7FF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: 3px 3px #52AAEE;
 }
 
 h2 {
     padding-bottom: 15px;
+    text-decoration: underline;
 }
 
-.row:after {
-    clear: both;
-    display: table;
-    content: "";
+p {
+    line-height: 1.5;
+    font-family: 'Nanum Myeongjo', sans-serif;
 }
+
+.centertable {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin: auto;
+    color: aliceblue;
+  }
 
 body {
-    background-color: #52AAEE;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(../img/backgroundpicture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-div {
+form {
+    background-color: lightblue;
+    width: 100%;
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 75px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color:  black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 25px;
+    float: right;
+}
+
+button:hover {
+    color: #4B82AE;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.layout {
     object-fit: cover;
     width: 1500px;
     height: 500px;
+    margin: 0px auto;
+}
+
+.divlayout {
+    
+    border: 5px solid;
+    padding: 5px;
+    position: relative;
+    background-color: #4B82AE;
+    margin-top: 25px;
 }
 
 .navbar {
-    left: 30%;
-    position: relative;
-    display: inline-block;
-    margin: 20px 100px;
+    float: right;
+    display: block;
+    margin: 15px;
     padding: 5px;
     color: whitesmoke;
     background-color: #142366;
-    
+    text-align: center;
+    text-decoration: none;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.classbar {
+    left: 25%;
+    position: relative;
+    padding: 5px;
+    margin: 15px;
+    font-weight: bold;
+
 }
 
 .front-image {
@@ -68,19 +140,141 @@ div {
 }
 
 .class-box {
-    padding-top: 5%;
+    padding-top: 2.5%;
+}
+
+.icontable {
+    width: 50px;
+    height: 50px;
+    border: none;
+    display: inline-block;
 }
 
 .icon-image {
     display: inline-block;
     margin: auto;
     background-position: left;
-    width: 6%;
-    height: 100px;
-    padding: 25px;
+    width: 8%;
+    height: 120px;
+    padding: 10px;
+    border: none;
 }
 
-img {
+.creditvideo {
+    font-size: small;
+    font-style: italic;
+    color: white;
+}
+
+#logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 8%;
+    height: 120px;
+    margin: 10px;
+    z-index: 2;
+}
+
+.wideinput {
+    text-align: left;
+    padding:  5px;
+    width: 300px;
+}
+
+i {
+    font-size: 65px;
+    background-color: black;
+    margin: 5px;
+    float: right;
+    border-radius: 50%;
+}
+
+i:hover {
+    background-color: #ECF7FF;
+}
+
+.facebooklogo {
+    color: rgb(47, 47, 236);
+}
+
+.twitterlogo {
+    color: #1D9BF0;
+}
+
+.youtubelogo {
+    color: #FF0000;
+}
+
+.snapchatlogo {
+    color: yellow;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100px;
+}
+
+.wrapper {
     width: 100%;
-    height: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-one {
+    float: left;
+    width: 33%;
+    padding: 25px;
+    height: 100px;
+}
+
+.column-two {
+    float: left;
+    width: 33%;
+    padding: 25px;
+    height: 100px;
+}
+
+.column-three {
+    float: left;
+    width: 33%;
+    padding: 25px;
+    height: 100px;
+}
+
+footer {
+    float: left;
+    background-color: #142366;
+    position: relative;
+    bottom: 0;
+}
+
+.columninfo {
+    display: inline-block;
+    position: relative;
+    margin: 15px;
+    left: 20%;
+}
+
+.footerbox {
+    width: 100%;
+    height: auto;
+    background-color: #142366;
+    margin: 25px 0px 0px 0px;
+    color: whitesmoke;
+}
+
+.footerspacing {
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    padding: 10px;
 }

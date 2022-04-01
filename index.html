@@ -4,39 +4,237 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Final Fantasy Class Job Guide">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d5683ed359.js" crossorigin="anonymous"></script>
     <title>Main Page</title>
 </head>
 <body>
-    <main>
-
-        <div class="front-image">
-            <img src="./img/frontpage.png" alt="Final Fantasy 14 character group picture">
-        </div>
+        <header>
+            <a href="./index.html"><img src="./img/logo.gif" id="logo"></a>
         
-        <nav>
-            <ul>
-                <li class="navbar"><a href="./index.html">Home</a></li>
-                <li class="navbar"><a href="./about.html">About</a></li>
-                <li class="navbar"><a href="./contact.html">Contact</a></li>
-            </ul>
-        </nav>
+            <nav>
+                <ul>
+                    <li class="navbar"><a href="./contact.html">Contact</a></li>
+                    <li class="navbar"><a href="./about.html">About</a></li>
+                    <li class="navbar"><a href="./index.html">Home</a></li>
+                
+                </ul>
+            </nav>
 
+            <div class="front-image layout">
+                <img src="./img/main-image.png" alt="Final Fantasy 14 character group picture">
+                <p align="left" class="creditvideo">(Credits to "EdeaCross" on Reddit for the picture.)</p>
+            </div>
+        
+        </header>
+
+        <main>
         <h1 align="center">Final Fantasy 14 Class Guide</h1>
 
-        <div class="class-box"><img src="./img/paladin.png" alt="Paladin FFXIV icon" align="left" class="icon-image"><iframe width="250" height="200" src="https://www.youtube.com/embed/Etwn7-Z_L9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="right"></iframe>
+        <table style="width:25%" border="3" class="centertable">
+            <tr>
+              <th style="color:rgb(69, 69, 241)">Tank</th>
+              <th style="color:green">Healer</th>
+              <th style="color: red">DPS</th>
+            </tr>
+            <tr>
+              <td><img src="./img/paladin.png" alt="" class="icontable"><img src="./img/gunbreaker.png" alt="" class="icontable"></td>
+              <td><img src="./img/scholar.png" alt="" class="icontable"><img src="./img/sage.png" alt="" class="icontable"></td>
+              <td><img src="./img/dragoon.png" alt="" class="icontable"><img src="./img/machinist.png" alt="" class="icontable"></td>
+            </tr>
+          </table>
+
+        <div class="class-box divlayout layout"><img src="./img/paladin.png" alt="Paladin FFXIV icon" align="left" class="icon-image"><iframe width="250" height="200" src="https://www.youtube.com/embed/Etwn7-Z_L9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="right"></iframe>
             <h2>Paladin</h2>
-            <p>Paladin is one of the tank class that you can play and it is by far the best tank in terms of handling mitigation and highest defense stats at the moment.<br> In regards to tanking, it is the easiest class to play due to the amount of defensive buff skills you get from paladin as a whole for their kit. If you are <br>wondering if paladin do good damage as well, you're wrong; they have the worst damage output by far in terms of ranking out of all the other tank classes <br>so it offsets based on how you want to play as a tank. </p>
+            <p>Paladin is one of the tank class that you can play and it is by far the best tank in terms of handling mitigation and highest defense stats at the moment. In regards to tanking, it is the easiest class to play due to the amount of defensive buff skills you get from paladin as a whole for their kit. If you are wondering if paladin do good damage as well, you're wrong; they have the worst damage output by far in terms of ranking out of all the other tank classes so it offsets based on how you want to play as a tank. </p>
+                <div class="row wrapper">
+                    <div class="column-one">
+                        <h3 class="columninfo" style="color:rgb(10, 10, 180)">Pros</h3>
+                        <ul>
+                            <li class="classbar">Best Defensive Tank</li>
+                            <li class="classbar">A lot of mitigation skills</li>
+                            <li class="classbar">Has healing ability for critical situations</li>
+                        </u>
+                    </div>
+
+                    <div class="column-two">
+                        <h3 class="columninfo" style="color:rgb(167, 11, 11)">Cons</h3>
+                        <ul>
+                            <li class="classbar">Lowest damage dealing tank</li>
+                            <li class="classbar">Cannot buff party members</li>
+                            <li class="classbar">Half of skill kits rely on MP</li>
+                        </ul>
+                    </div>
+                </div>
+            <p align="right" class ="creditvideo">(Credit to Youtuber channel "Azurite FFXIV" for the video.)</p>       
         </div>
 
-        <div class="class-box"><img src="./img/gunbreaker.png" alt="Gunbreaker FFXIV icon" align="left" class="icon-image"><iframe width="250" height="200" src="https://www.youtube.com/embed/uJ-LPLEx0v0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="right"></iframe>
+        <div class="class-box divlayout layout"><img src="./img/gunbreaker.png" alt="Gunbreaker FFXIV icon" align="left" class="icon-image"><iframe width="250" height="200" src="https://www.youtube.com/embed/uJ-LPLEx0v0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="right"></iframe>
             <h2>Gunbreaker</h2>
-            <p>Paladin is one of the tank class that you can play and it is by far the best tank in terms of handling mitigation and highest defense stats at the moment.<br> In regards to tanking, it is the easiest class to play due to the amount of defensive buff skills you get from paladin as a whole for their kit. If you are <br>wondering if paladin do good damage as well, you're wrong; they have the worst damage output by far in terms of ranking out of all the other tank classes <br>so it offsets based on how you want to play as a tank. </p>
+            <p>Gunbreaker is a tank class that has decent defensive capabilities but not as well as a paladin. Their kits shine in terms of doing quite overall a hefty amount of damage due to their offensive skills and ability to outshine paladin in this tank offensive role. In terms of their tanking, they have decent migitation skills for blocking off damage and can also buff party members as well which gives them an upperhand in the tanking role.</p>
+                <div class="row wrapper">
+                    <div class="column-one">
+                        <h3 class="columninfo" style="color:rgb(10, 10, 180)">Pros</h3>
+                        <ul>
+                            <li class="classbar">Good damage dealing tank</li>
+                            <li class="classbar">Decent migitation skills and can buff party members defensively</li>
+                            <li class="classbar">Has a self heal in their single target skill rotation</li>
+                        </u>
+                    </div>
+
+                    <div class="column-two">
+                        <h3 class="columninfo" style="color:rgb(167, 11, 11)">Cons</h3>
+                        <ul>
+                            <li class="classbar">Have no heal skills for other party members unlike Paladin</li>
+                            <li class="classbar">Need to rely on bullets for best optimal damage output</li>
+                            <li class="classbar">Invulnerability skills bring their hp to 1 so timing is crucial unless you hate your healer</li>
+                        </ul>
+                    </div>
+                </div>
+            <p align="right" class ="creditvideo">(Credit to Youtuber channel "Azurite FFXIV" for the video.)</p>    
         </div>
+
+        <div class="class-box divlayout layout"><img src="./img/scholar.png" alt="Scholar FFXIV icon" align="left" class="icon-image"><iframe width="250" height="200" src="https://www.youtube.com/embed/hw5uOba34UI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="right"></iframe>
+            <h2>Scholar</h2>
+            <p>Scholar is a healer class that's very mixed in terms of healing capabilities due to the fact that they rely on their fairy for healing party members. Their learning curve is quite high due to the fact that new players that learn Scholar don't know about the aetherflow stacks and how important they are for maximizing their healing potential. In terms of healing, they have decent healing abilities but rely a lot on their fairy and have no big burst heals so have to keep watch of party members not getting too low on hp or it could be really punishing for you to keep up healing.</p>    
+                <div class="row wrapper">
+                    <div class="column-one">
+                        <h3 class="columninfo" style="color:rgb(10, 10, 180)">Pros</h3>
+                        <ul>
+                            <li class="classbar">Decent healing capabilities if using aetherflow correctly</li>
+                            <li class="classbar">Fairy helping with heals</li>
+                            <li class="classbar">Has skills to enhance your healing abilities</li>
+                        </u>
+                    </div>
+
+                    <div class="column-two">
+                        <h3 class="columninfo" style="color:rgb(167, 11, 11)">Cons</h3>
+                        <ul>
+                            <li class="classbar">A mixed healer with a steep learning curve</li>
+                            <li class="classbar">Most essential skills require aetherflow to cast any major healing and only can have 3 stacks every 1 minute so have to use wisely</li>
+                            <li class="classbar">Reliant on fairy to be on good position to cast fairy heals or it won't hit other party members</li>
+                        </ul>
+                    </div>
+                </div>
+            <p align="right" class ="creditvideo">(Credit to Youtuber channel "Azurite FFXIV" for the video.)</p>
+        </div>
+
+        <div class="class-box divlayout layout"><img src="./img/sage.png" alt="Sage FFXIV icon" align="left" class="icon-image"><iframe width="250" height="200" src="https://www.youtube.com/embed/S8qsJCE8xz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="right"></iframe>
+            <h2>Sage</h2>
+            <p>Sage is a healer class that is very popular right now due to the fact that their healing/mitigation capabilities are so well balanced. The main reason to why sage is a popular healer class is because whenever they do damage to enemies, they heal whoever they put their Kardia on and can even put on themself so clearing content as healer class this is by far the best choice. In terms of their healing, their fast cast for heals/shields are good for optimizing keeping up with mitigating party members and keeping them from taking too much damage while at high hp.</p>
+                <div class="row wrapper">
+                    <div class="column-one">
+                        <h3 class="columninfo" style="color:rgb(10, 10, 180)">Pros</h3>
+                        <ul>
+                            <li class="classbar">Best healer class with good healing/mitigation</li>
+                            <li class="classbar">3 Stacks of Addersgall for big heals and mitigation for party members.</li>
+                            <li class="classbar">Can use offensive skills to heal with Kardia</li>
+                        </u>
+                    </div>
+
+                    <div class="column-two">
+                        <h3 class="columninfo" style="color:rgb(167, 11, 11)">Cons</h3>
+                        <ul>
+                            <li class="classbar">For bigger heals, need to cast without Eukrasia</li>
+                            <li class="classbar">Have to watch for Addersgall stacks cause it takes time to charge</li>
+                            <li class="classbar">Have to switch Kardia around party members to maximize your healing</li>
+                        </ul>
+                    </div>
+                </div>
+            <p align="right" class ="creditvideo">(Credit to Youtuber channel "Azurite FFXIV" for the video.)</p>
+        </div>
+
+        <div class="class-box divlayout layout"><img src="./img/dragoon.png" alt="Dragoon FFXIV icon" align="left" class="icon-image"><iframe width="250" height="200" src="https://www.youtube.com/embed/EaKJeYjgIx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="right"></iframe>
+            <h2>Dragoon</h2>
+            <p>Dragoon is one of the top close range damage dealer in the game and is very reliant on positioning to maximize your dps output. Though it is not heavily affected that your damage will falter if not position correctly, it is still good to learn the positioning mechanics to optimize your dps output. In terms of dps, they are very high in damage output and can be a lot of fun to play because honestly not only do they have amazing damage but they also have the best looking gear for dps role, hence why people love them because they fight with style.</p>
+                <div class="row wrapper">
+                    <div class="column-one">
+                        <h3 class="columninfo" style="color:rgb(10, 10, 180)">Pros</h3>
+                        <ul>
+                            <li class="classbar">Best close damage dealer</li>
+                            <li class="classbar">A lot of high burst damage output skills</li>
+                            <li class="classbar">Buff skills that increases your damage output</li>
+                        </u>
+                    </div>
+
+                    <div class="column-two">
+                        <h3 class="columninfo" style="color:rgb(167, 11, 11)">Cons</h3>
+                        <ul>
+                            <li class="classbar">Some skills require positioning to maximize damage output</li>
+                            <li class="classbar">Has a skill that can flip back so watch where you're going to flip backwards or you might end up on the "floor"</li>
+                            <li class="classbar">Must be very optimal with GCD cooldowns or your damage will fall behind</li>
+                        </ul>
+                    </div>
+                </div>
+            <p align="right" class ="creditvideo">(Credit to Youtuber channel "Azurite FFXIV" for the video.)</p>
+        </div>
+
+        <div class="class-box divlayout layout"><img src="./img/machinist.png" alt="Machinist FFXIV icon" align="left" class="icon-image"><iframe width="250" height="200" src="https://www.youtube.com/embed/lHy9wHYgzls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="right"></iframe>
+            <h2>Machinist</h2>
+            <p>Machinist is a range damage dealer in the game and has a decent dps output due to their skill rotation being very active. As a machinist having mixed skills of charged GCD skills and rotational instant skills, they are a pretty active class to play so be prepare to press a lot of buttons. Having a set rotation as a machinist is very important so it's punishing on their dps if they mess up their rotation. In terms of damage as a machinist, they are reliant on their rotation to maximize their dps and have no positioning skills so it's quite nice to shoot from anywhere in the map.</p>
+                <div class="row wrapper">
+                    <div class="column-one">
+                        <h3 class="columninfo" style="color:rgb(10, 10, 180)">Pros</h3>
+                        <ul>
+                            <li class="classbar">Have skills that can be recharge over time for instant cast as extra damage</li>
+                            <li class="classbar">Has a skill that makes you 100% crit so good for burst skills</li>
+                            <li class="classbar">Can summon a robot that does good damage by itself</li>
+                        </u>
+                    </div>
+
+                    <div class="column-two">
+                        <h3 class="columninfo" style="color:rgb(167, 11, 11)">Cons</h3>
+                        <ul>
+                            <li class="classbar">A lot to keep up with in terms of GCD skills and rotational skills</li>
+                            <li class="classbar">Burst skills have quite a long cd</li>
+                            <li class="classbar">Take awhile to charge up heat gauge to do extra damage</li>
+                        </ul>
+                    </div>
+                </div>
+            <p align="right" class ="creditvideo">(Credit to Youtuber channel "Desperius FFXIV" for the video.)</p>
+        </div>
+
     </main>
+
+    <footer class="footerbox divlayout">
+        <h2 class="footerspacing">Want more info?</h2>
+        <p class="footerspacing">Check out these links on each of the class jobs that you want to try in order to get a better understanding of their playstyle.</p>
+        <div class="row wrapper">
+            <div class="column-one">
+                <h3 class="columninfo" style="color:rgb(69, 69, 241)">Tank</h3>
+                    <ul>
+                        <li class="columninfo"><a href="https://finalfantasy.fandom.com/wiki/Paladin_(Final_Fantasy_XIV)#:~:text=Known%20as%20paladins%2C%20these%20men,their%20lives%20for%20their%20liege.">Paladin</a></li>
+                        <li class="columninfo"><a href="https://ffxiv.consolegameswiki.com/wiki/Gunbreaker#:~:text=Gunbreaker%20is%20a%20job%20introduced,Disciple%20of%20War%20or%20Magic">Gunbreaker</a></li>
+                    </ul>
+            </div>
+            <div class="column-two">
+                <h3 class="columninfo" style="color:green">Healer</h3>
+                    <ul>
+                        <li class="columninfo"><a href="https://finalfantasy.fandom.com/wiki/Scholar_(Final_Fantasy_XIV)#:~:text=Scholars%20are%20accompanied%20by%20a,damages%20in%20the%20first%20place.">Scholar</a></li>
+                        <li class="columninfo"><a href="https://finalfantasy.fandom.com/wiki/Sage_(Final_Fantasy_XIV)">Sage</a></li>
+                    </ul>
+            </div>
+            <div class="column-three">
+                <h3 class="columninfo" style="color:red">DPS</h3>
+                    <ul>
+                        <li class="columninfo"><a href="https://www.fanbyte.com/guides/ff14-dragoon-job-guide-shadowbringers-changes-rework-skills/#:~:text=The%20Dragoon%20is%20a%20melee,enemy%20piercing%20resistance%20in%20Shadowbringers.">Dragoon</a></li>
+                        <li class="columninfo"><a href="https://finalfantasy.fandom.com/wiki/Machinist_(Final_Fantasy_XIV)#:~:text=Machinist%20is%20a%20job%20in,and%20begins%20at%20level%2030.">Machinist</a></li>
+                    </ul>
+            </div>
+        </div>
+        
+        <div>
+            <p align="right">Need help? Just check out my social media<br> for more content and info!</p>
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook facebooklogo"></i></a>
+                <a href="https://www.twitter.com"><i class="fa-brands fa-twitter twitterlogo"></i></a>
+                <a href="https://www.youtube.com"><i class="fa-brands fa-youtube youtubelogo"></i></a>
+                <a href="https://www.snapchat.com"><i class="fa-brands fa-snapchat snapchatlogo"></i></a>
+        </div>
+    </footer>
 </body>
 </html>
